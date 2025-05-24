@@ -3,7 +3,7 @@
 @section('title', 'education')
 
 @section('content')
-<section class="section">
+<section id="education" class="section">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Edukasi & Kesadaran</h2>
                 

@@ -2,18 +2,18 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('beranda');
-})->name('beranda');
+    return view('home');
+})->name('home');
 
-Route::get('/', function () {
-    return view('dukungan');
-})->name('dukungan');
+Route::get('/support', function () {
+    return view('support');
+})->name('support');
 
-Route::get('/', function () {
-    return view('edukasi');
-})->name('edukasi');
+Route::get('/education', function () {
+    return view('education');
+})->name('education');
 
-Route::get('/', function () {
+Route::get('/forum', function () {
     return view('forum');
 })->name('forum');
 
