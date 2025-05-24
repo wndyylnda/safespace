@@ -45,11 +45,6 @@
                             </div>
                             <h4 class="font-semibold mb-2">Bagaimana cara menghadapi perundungan di media sosial?</h4>
                             <p class="text-gray-700 text-sm mb-3">Anak saya mengalami cyberbullying di Instagram. Bagaimana cara terbaik untuk menanganinya?</p>
-                            <div class="flex items-center space-x-4 text-sm text-gray-500">
-                                <button class="hover:text-primary">👍 12 suka</button>
-                                <button class="hover:text-primary">💬 8 balasan</button>
-                                <button class="hover:text-primary">🔗 Bagikan</button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -65,11 +60,6 @@
                             </div>
                             <h4 class="font-semibold mb-2">Terima kasih untuk dukungan komunitas ini</h4>
                             <p class="text-gray-700 text-sm mb-3">Berkat bantuan dari komunitas ini, saya berhasil mengatasi masalah perundungan di sekolah. Terima kasih semuanya!</p>
-                            <div class="flex items-center space-x-4 text-sm text-gray-500">
-                                <button class="hover:text-primary">👍 25 suka</button>
-                                <button class="hover:text-primary">💬 15 balasan</button>
-                                <button class="hover:text-primary">🔗 Bagikan</button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -84,8 +74,7 @@
                     <label class="block text-sm font-medium text-gray-700 mb-2">Kategori</label>
                     <select id="post-category" class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         <option>Diskusi Umum</option>
-                        <option>Dukungan Peer</option>
-                        <option>Forum Orang Tua</option>
+                        <option>Berbagi Pengalaman</option>
                     </select>
                 </div>
                 <div class="mb-4">
@@ -147,11 +136,6 @@
                     </div>
                     <h4 class="font-semibold mb-2">${title}</h4>
                     <p class="text-gray-700 text-sm mb-3">${content}</p>
-                    <div class="flex items-center space-x-4 text-sm text-gray-500">
-                        <button class="hover:text-primary">👍 0 suka</button>
-                        <button class="hover:text-primary">💬 0 balasan</button>
-                        <button class="hover:text-primary">🔗 Bagikan</button>
-                    </div>
                 </div>
             </div>
         `;

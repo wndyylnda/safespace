@@ -24,63 +24,19 @@
                         </div>
                     </div>
 
-                    <!-- Chat Support -->
-                    <div class="bg-white p-6 rounded-xl shadow-lg">
-                        <h3 class="text-xl font-semibold text-primary mb-4">💬 Chat dengan Konselor</h3>
-                        <p class="text-gray-600 mb-4">Bicara dengan konselor profesional kami secara anonim</p>
-                        <button onclick="startChat()" class="w-full bg-primary text-white py-3 rounded-lg hover:bg-blue-600 transition-colors font-semibold">Mulai Chat Sekarang</button>
-                        <p class="text-xs text-gray-500 mt-2 text-center">Rata-rata waktu respons: 2 menit</p>
-                    </div>
-                </div>
+                     <!-- Support Resources -->
+                    <div style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 40px; width: 600px; background-color: #EDE9FE;">
+                            <div style="font-size: 40px;">📖</div>
+                            <h3 style="margin: 10px 0 5px;">Panduan Self-Help</h3>
+                            <h3>Materi dan strategi untuk mengatasi perundungan sendiri</h3>
+                            
+                            <a href="https://youtube.com/@kejarcita?si=tpSy2K-X6mmplCVR" target="_blank" style="color: #000; text-decoration: none; font-weight: bold;">Baca Panduan → </a>
+                        </div>
+                        <div class="text-center">
+                            <p class="italic text-gray-500">"Kamu tidak sendiri. Suaramu penting. Bantuan selalu ada." 💙</p>
+                        </div>
 
-                <!-- Support Resources -->
-                <div class="mt-16">
-                    <h3 class="text-2xl font-semibold text-center text-gray-900 mb-8">Sumber Daya Dukungan</h3>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <div class="bg-white p-6 rounded-xl shadow-lg">
-                            <div class="text-primary text-3xl mb-4">📱</div>
-                            <h4 class="font-semibold mb-2">Aplikasi Mobile</h4>
-                            <p class="text-gray-600 text-sm mb-4">Download aplikasi SafeSpace untuk akses bantuan kapan saja</p>
-                            <button class="text-primary hover:underline text-sm">Download Sekarang →</button>
-                        </div>
-                        
-                        <div class="bg-white p-6 rounded-xl shadow-lg">
-                            <div class="text-primary text-3xl mb-4">📖</div>
-                            <h4 class="font-semibold mb-2">Panduan Self-Help</h4>
-                            <p class="text-gray-600 text-sm mb-4">Materi dan strategi untuk mengatasi perundungan sendiri</p>
-                            <button class="text-primary hover:underline text-sm">Baca Panduan →</button>
-                        </div>
-                        
-                        <div class="bg-white p-6 rounded-xl shadow-lg">
-                            <div class="text-primary text-3xl mb-4">👥</div>
-                            <h4 class="font-semibold mb-2">Support Group</h4>
-                            <p class="text-gray-600 text-sm mb-4">Bergabung dengan grup dukungan mingguan</p>
-                            <button class="text-primary hover:underline text-sm">Daftar Grup →</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Chat Interface (Hidden by default) -->
-                <div id="chat-interface" class="hidden mt-8 bg-white rounded-xl shadow-lg overflow-hidden">
-                    <div class="bg-primary text-white p-4 flex justify-between items-center">
-                        <h4 class="font-semibold">Chat dengan Konselor</h4>
-                        <button onclick="closeChat()" class="text-white hover:text-gray-200">✕</button>
-                    </div>
-                    <div id="chat-messages" class="h-64 overflow-y-auto p-4 space-y-3">
-                        <div class="flex items-start space-x-2">
-                            <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white text-sm">K</div>
-                            <div class="bg-gray-100 p-3 rounded-lg flex-1">
-                                <p class="text-sm">Halo! Saya konselor Sarah. Bagaimana saya bisa membantu Anda hari ini?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-4 border-t">
-                        <div class="flex space-x-2">
-                            <input type="text" id="chat-input" class="flex-1 p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Ketik pesan Anda...">
-                            <button onclick="sendMessage()" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">Kirim</button>
-                        </div>
-                    </div>
-                </div>
             </div>
+            
         </section>
 @endsection

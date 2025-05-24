@@ -32,6 +32,7 @@
             </div>
         </div>
     </div>
+     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
 </div>
 
 @endsection
