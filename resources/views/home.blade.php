@@ -34,27 +34,4 @@
     </div>
 </div>
 
-<!-- Features Section -->
-<div class="py-12 sm:py-16 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-8 sm:mb-12">Fitur Utama SafeSpace</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            <div class="bg-white p-6 sm:p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <div class="text-purple-700 text-3xl sm:text-4xl mb-4">📚</div>
-                <h3 class="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">Edukasi & Kesadaran</h3>
-                <p class="text-gray-600 text-sm sm:text-base">Materi lengkap tentang perundungan, cara mencegah, dan membangun kesadaran di komunitas.</p>
-            </div>
-            <div class="bg-white p-6 sm:p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <div class="text-purple-700 text-3xl sm:text-4xl mb-4">💬</div>
-                <h3 class="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">Forum Komunitas</h3>
-                <p class="text-gray-600 text-sm sm:text-base">Tempat aman untuk berbagi pengalaman, bertanya, dan saling mendukung antar anggota komunitas.</p>
-            </div>
-            <div class="bg-white p-6 sm:p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow md:col-span-2 lg:col-span-1">
-                <div class="text-purple-700 text-3xl sm:text-4xl mb-4">🤝</div>
-                <h3 class="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">Dukungan 24/7</h3>
-                <p class="text-gray-600 text-sm sm:text-base">Tim konselor profesional siap membantu kapan saja Anda membutuhkan dukungan.</p>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection

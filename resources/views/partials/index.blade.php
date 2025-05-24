@@ -6,7 +6,7 @@ session_start();
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
 // Define the allowed pages
-$allowed_pages = ['home', 'education', 'forum', 'support', 'report'];
+$allowed_pages = ['home', 'education', 'forum', 'support'];
 
 // Check if the requested page is allowed
 if (!in_array($page, $allowed_pages)) {

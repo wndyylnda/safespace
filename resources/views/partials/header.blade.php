@@ -7,11 +7,10 @@
                     </div>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="index.php?page=home" class="nav-link text-gray-700 hover:text-primary transition-colors font-medium">Beranda</a>
-                    <a href="index.php?page=education" class="nav-link text-gray-700 hover:text-primary transition-colors font-medium">Edukasi</a>
-                    <a href="index.php?page=forum" class="nav-link text-gray-700 hover:text-primary transition-colors font-medium">Forum</a>
-                    <a href="index.php?page=support" class="nav-link text-gray-700 hover:text-primary transition-colors font-medium">Dukungan</a>
-                    <a href="index.php?page=report" class="nav-link text-gray-700 hover:text-primary transition-colors font-medium">Lapor</a>
+                    <a href="{{ route('home') }}" class="nav-link text-gray-700 active:text-purple-500 cursor-pointer select-none hover:text-primary transition-colors font-medium">Beranda</a>
+                    <a href="{{ route('education') }}" class="nav-link text-gray-700 active:text-purple-500 cursor-pointer select-none hover:text-primary transition-colors font-medium">Edukasi</a>
+                    <a href="{{ route('forum') }}" class="nav-link text-gray-700 active:text-purple-500 cursor-pointer select-none hover:text-primary transition-colors font-medium">Forum</a>
+                    <a href="{{ route('support') }}" class="nav-link text-gray-700 active:text-purple-500 cursor-pointer select-none hover:text-primary transition-colors font-medium">Dukungan</a>
                 </div>
             </div>
         </nav>
