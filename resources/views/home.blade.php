@@ -15,7 +15,7 @@
 </section>
 
 <!-- Stats Section -->
-<div class="py-12 sm:py-16 bg-white">
+<div class="py-12 sm:py-16 bg-black">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-center">
             <div class="p-4 sm:p-6">
