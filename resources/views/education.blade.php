@@ -29,7 +29,7 @@
                         <h3 class="text-2xl font-semibold text-primary mb-6">Tanda-tanda Korban Perundungan</h3>
                         <div class="space-y-4 text-gray-700">
                             <div class="bg-red-50 p-4 rounded-lg">
-                                <h4 class="font-semibold text-red-700 mb-2">Perhatikan Tanda-tanda Ini:</h4>
+                                <h4 class="font-semibold text-blue-700 mb-2">Perhatikan Tanda-tanda Ini:</h4>
                                 <ul class="list-disc list-inside space-y-1">
                                     <li>Perubahan perilaku mendadak</li>
                                     <li>Tidak mau pergi ke sekolah</li>

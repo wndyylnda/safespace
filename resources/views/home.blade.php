@@ -3,13 +3,13 @@
 @section('title', 'home')
 
 @section('content')
-<section class="bg-gradient-to-r from-purple-500 to-purple-700 text-white py-12 sm:py-16 lg:py-20 xl:py-24">
+<section class=" text-white py-12 sm:py-16 lg:py-20 xl:py-24 bg-purple-600">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight">Bersama Melawan Perundungan</h1>
-        <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed">Menciptakan lingkungan yang aman dan mendukung untuk semua orang. Mari bersatu melawan perundungan!</p>
+        <h1 class="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight text-white">Bersama Melawan Perundungan</h1>
+        <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed text-white">Menciptakan lingkungan yang aman dan mendukung untuk semua orang. Mari bersatu melawan perundungan!</p>
         <div class="flex flex-col xs:flex-row gap-3 sm:gap-4 justify-center items-center max-w-md xs:max-w-none mx-auto">
-            <a href="{{ route('education') }}" class="w-full xs:w-auto bg-white text-purple-700 px-6 sm:px-8 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors text-sm sm:text-base inline-block text-center">Pelajari Lebih Lanjut</a>
-            <a href="{{ route('support') }}" class="w-full xs:w-auto border-2 border-white text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-white hover:text-purple-700 transition-colors text-sm sm:text-base inline-block text-center">Butuh Bantuan?</a>
+            <a href="{{ route('education') }}" class="w-full xs:w-auto bg-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors text-sm sm:text-base inline-block text-center text-purple-700">Pelajari Lebih Lanjut</a>
+            <a href="{{ route('support') }}" class="w-full xs:w-auto border-2 border-white text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-white hover:text-purple-700 transition-colors text-sm sm:text-base inline-block text-center text-white">Butuh Bantuan?</a>
         </div>
     </div>
 </section>
