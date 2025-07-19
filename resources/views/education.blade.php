@@ -4,7 +4,6 @@
 
 @section('content')
 <section id="education" class="section">
-<<<<<<< HEAD
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Edukasi & Kesadaran</h2>
                 
@@ -42,23 +41,6 @@
                                 </ul>
                             </div>
                         </div>
-=======
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <!-- Hero Section -->
-        <div class="text-center mb-16">
-            <h2 class="text-4xl font-bold text-gray-900 mb-4">Edukasi & Kesadaran</h2>
-            <p class="text-xl text-gray-600 max-w-3xl mx-auto">Mari bersama-sama menciptakan lingkungan yang aman dan bebas dari perundungan melalui edukasi dan kesadaran</p>
-        </div>
-        
-        <!-- Educational Content -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div class="flex items-center mb-6">
-                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-                        </svg>
->>>>>>> refs/remotes/origin/main
                     </div>
                     <h3 class="text-2xl font-semibold text-primary">Apa itu Perundungan?</h3>
                 </div>
