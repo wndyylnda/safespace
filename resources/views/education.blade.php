@@ -293,7 +293,7 @@
         </div>
 
         <!-- Call to Action -->
-        <div class="text-center mt-8">
+        <div class="text-center mt-16">
             <div class="bg-primary text-white p-8 rounded-xl">
                 <h3 class="text-2xl font-semibold mb-4">Mari Bersama Lawan Perundungan!</h3>
                 <p class="text-lg mb-6">Setiap orang memiliki peran penting dalam menciptakan lingkungan yang aman dan bebas dari perundungan.</p>
